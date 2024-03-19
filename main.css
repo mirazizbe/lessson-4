@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6DFC56;
+  margin: auto;
+  font-family: "IBM Plex Mono", monospace;
+  color: #13390D;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 1.875rem 10.3125rem 0px 10.3125rem;
+  font-size: 0.875rem;
+}
+.navigation img {
+  cursor: pointer;
+}
+.navigation .nav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 3.125rem;
+}
+.navigation .nav li {
+  list-style: none;
+}
+.navigation .nav li a {
+  text-decoration: none;
+  color: #13390D;
+}
+.navigation .nav a:hover {
+  color: #fff;
+}
+.navigation .nav nav {
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+  gap: 3rem;
+}
+.navigation .nav button {
+  padding: 0.75rem 1.375rem;
+  font-weight: 500;
+  line-height: 1.1375rem;
+  background: none;
+  border-radius: 4px;
+  border: 2px solid #13390D;
+  cursor: pointer;
+}
+.navigation .nav button:hover {
+  background: #13390D;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+main .page {
+  display: flex;
+  flex-direction: column;
+  margin-top: 11.25rem;
+  margin-left: 10.3125rem;
+  gap: 1.25rem;
+}
+main .page h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.2rem;
+}
+main .page p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+main .page button {
+  font-family: "IBM Plex Mono", monospace;
+  padding: 1.3125rem 4.375rem;
+  background: #13390D;
+  color: #fff;
+  border-radius: 0.25rem;
+  border-color: #13390D;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.1375rem;
+}
+main .page button:hover {
+  background: none;
+  color: #13390D;
+  border: 2px solid #13390D;
+}/*# sourceMappingURL=main.css.map */

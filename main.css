@@ -38,13 +38,13 @@ body {
 .navigation .nav a:hover {
   color: #fff;
 }
-.navigation .nav nav {
+.navigation .nav a:hover nav {
   display: flex;
   flex-direction: row;
   font-weight: 500;
   gap: 3rem;
 }
-.navigation .nav button {
+.navigation .nav a:hover button {
   padding: 0.75rem 1.375rem;
   font-weight: 500;
   line-height: 1.1375rem;
@@ -53,9 +53,10 @@ body {
   border: 2px solid #13390D;
   cursor: pointer;
 }
-.navigation .nav button:hover {
+.navigation .nav a:hover button:hover {
   background: #13390D;
   color: #fff;
+  box-shadow: 7px 5px 56px 14px #fff;
 }
 
 main {
@@ -92,7 +93,8 @@ main .page button {
   line-height: 1.1375rem;
 }
 main .page button:hover {
-  background: none;
+  background: #fff;
   color: #13390D;
   border: 2px solid #13390D;
+  box-shadow: 7px 5px 56px 14px #fff;
 }/*# sourceMappingURL=main.css.map */

@@ -42,7 +42,7 @@ body{
 
         a:hover{
          color: #fff;
-        }
+        
         nav{
             display: flex;
             flex-direction: row;
@@ -62,9 +62,11 @@ body{
         button:hover{
             background: $color;
             color: #fff;
+            box-shadow: 7px 5px 56px 14px #fff;
         
         }
     }
+  }
 }
 main{
     display: flex;
@@ -100,9 +102,10 @@ main{
             line-height: 1.1375rem;
         }
         button:hover{
-            background: none;
+            background: #fff;
             color: $color;
             border: 2px solid $color;
+            box-shadow: 7px 5px 56px 14px #fff;
         }
     }
 }
